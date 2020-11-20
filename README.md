@@ -1,1 +1,2 @@
-# The 10Core apps is only for IOS
+# 10Core 
+The 10Core apps is only for IOS.
