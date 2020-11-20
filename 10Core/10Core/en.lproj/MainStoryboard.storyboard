@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2541" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1875"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="5ta-6x-90C">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="澳門保安部隊軍事化人員 - 義務" id="3IW-vZ-P5m"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bHL-Fl-vgq">
+                                <rect key="frame" x="0.0" y="44" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="一．服從義務">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nDn-KR-sjg" kind="modal" id="mxI-ze-9iD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mhY-bJ-UTx">
+                                <rect key="frame" x="0.0" y="81" width="320" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="二．無私義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xJK-wf-tVe" kind="modal" id="txi-kn-XGf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5qA-gW-xwH">
+                                <rect key="frame" x="0.0" y="121" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="三．熱心義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WQI-uw-eFT" kind="modal" id="SWc-Yg-JGm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3u2-2q-gK0">
+                                <rect key="frame" x="0.0" y="159" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="四．忠誠義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3eU-Pe-eNE" kind="modal" id="TUR-og-JUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QMR-iL-CTi">
+                                <rect key="frame" x="0.0" y="194" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="五．保密義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="K2H-9K-Mfh" kind="modal" id="dh5-fy-ag3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ldL-If-O0e">
+                                <rect key="frame" x="0.0" y="229" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="六．有禮義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="biq-NQ-EUO" kind="modal" id="dIg-mr-vsz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SRe-7L-wrx">
+                                <rect key="frame" x="0.0" y="264" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="七．端莊義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hpp-JF-cR4" kind="modal" id="yDH-VA-ap3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W6C-cv-ejA">
+                                <rect key="frame" x="0.0" y="299" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="八．勤謹義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9rb-qq-ywz" kind="modal" id="sGl-6D-2h8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jOh-hu-NUH">
+                                <rect key="frame" x="0.0" y="335" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="九．守時義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LOF-UC-YU4" kind="modal" id="vIy-0b-gvm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6k9-qv-32r">
+                                <rect key="frame" x="0.0" y="371" width="320" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="十．候命義務">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HHx-Ml-DJ4" kind="modal" id="Ibp-hS-5qs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="-2553"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="u3K-VM-A5z">
+            <objects>
+                <viewController id="biq-NQ-EUO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jun-cj-2Sq">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Sme-lc-88y">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、有禮義務指以尊重及尊敬態度對待公眾、上級及澳門保安部隊之其他人員。
+
+二、在履行有禮義務時，軍事化人員尤應：
+
+a）在有必要使用強制性或其他有可能限制公民權利之方法時，不濫用其職權亦不超越必要之限度；
+
+b）尊重主權機關成員、本地區本身管理機構成員、司法及行政當局，並以應有之恭敬態度對待之；
+
+c）以有禮及耐心之態度對待在工作中接觸之人士，尤其在有困難之情況下，謹記在作出肯定及決定時仍須保持禮貌及謹慎之態度；
+
+d）採用合理及慎重之行動、得體之言辭以及堅定及冷靜之態度；
+
+e）在被要求下或因工作情況須其證明身分時，即使已穿著制服，仍須立即透過依法核准之文件證實其為澳門保安部隊人員之身分；
+
+f）以有禮及耐心之態度對待下屬，以公平行為獲取下屬之尊敬及愛戴，而不應使用武力，但為避免或還擊嚴重侵犯或嚴重不服從之情況除外，而上述事實應立即向上級報告。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="Ddf-8V-DwL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="六（有禮義務）" id="Yj7-Sh-Fqq">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="GRi-cB-IWa">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="du0-Yc-6kz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Rj-oy-CKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="-1992"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2GL-pM-IgL">
+            <objects>
+                <viewController id="hpp-JF-cR4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8zv-Mc-Dfn">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Zhf-f3-zm9">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、端莊義務指可表達、反映及增強職務尊嚴及澳門保安部隊聲譽之態度及行為。
+
+二、在履行端莊義務時，軍事化人員尤應：
+
+a）根據已訂立之規定，在所有情況下注意其個人儀表以及其制服及設備之整齊；
+
+b）在列隊中保持堅定及正確之態度，並不得談話、發表意見或評論；
+
+c）清潔及保養獲賦予或由其負責之制服物品、武器、設備或其他物料；
+
+d）未經上級許可，不得在穿著制服時，在任何公共場所演出，且不觀看可影響其個人及職務尊嚴之公共演出；
+
+e）不製造與其擔任職務之自由、公正無私、中立及客觀性不符之依賴狀況，尤其是透過結欠在一般情況下不能承擔之債務或作出在一般情況下不能履行之承諾；
+
+f）不作出違反道德、職務上之職業道德及澳門保安部隊聲譽或尊嚴之行動；
+
+g）避免作出有損於身體及智能方面之精力及能力之行為或行動，尤其為酗酒以及使用其他有害健康之物質；
+
+h）促進澳門保安部隊人員間之和睦共處、相互團結及同僚情誼；
+
+i）不進入幸運博彩場所或類似場所，但經許可或因工作關係之情況除外；
+
+j）不出入由於其性質處於澳門保安部隊或其他警察當局特別或長期看護之地點或場所，但因工作關係或穿著便衣者除外；
+
+l）不與因在警察當局有不良紀錄或犯罪前科而處於警察看護下之人士共處、作伴或發展親密或友好關係；
+
+m）不改變制服之模式，不使用不屬於其階級之標誌及未由上級許可之徽章或勳章；
+
+n）不利用執法人員之地位作任何私人性質之廣告；
+
+o）不實施任何可構成刑事不法行為或輕微違反不法行為之作為或不作為。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="eAG-NS-TcL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="七（端莊義務）" id="1az-WY-jak">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="1h6-dE-yZP">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="4yV-3W-7qz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFA-ym-DfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-1430"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0eb-Qi-FCQ">
+            <objects>
+                <viewController id="9rb-qq-ywz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5k1-pq-bRE">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="H3Z-Ek-IE3">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、勤謹義務指依規章之規範不間斷上班。
+
+二、在履行勤謹義務時，軍事化人員尤應：
+
+a）不構成不正當缺勤之情況，並在無合理解釋之情況下不得停止上班；
+
+b）不得離開崗位或因職務理由須留守之地點，但獲適當許可或在執行職務時須即時採取措施以澄清任何犯罪性質之行為者除外。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="nhD-2X-kjh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="八（勤謹義務）" id="pyk-nx-5L8">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="mXS-dL-xkF">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="m9E-ki-Dsi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLf-1i-xPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="-1430"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i1s-op-7ct">
+            <objects>
+                <viewController id="LOF-UC-YU4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WcJ-9a-jwA">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="T0R-mN-2ch">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、守時義務指在規章規定之時間內上班。
+
+二、在履行守時義務時，軍事化人員尤應：
+
+a）按規範性規定所指之日期及時間，到達指定工作崗位或地點；
+
+b）如因職務上之理由而被召或在特殊情況要求下，尤其在公共秩序發生嚴重變化，以及在緊急、嚴重事故、災禍或災難之情況下，前往獲派遣之指揮部、司、附屬單位、機關或部門；
+
+c）如發生某些妨礙原因，尤其是因患病或不可抗力之原因，而使軍事化人員不能上班，應以最快之方式通知指揮部或其從屬之主管。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="ctR-dG-qZB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="九（守時義務）" id="mlw-yz-CZT">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="iaC-DT-vMO">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="4eN-r4-uVz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="teA-mz-o3y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="-1430"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SV6-jB-ujK">
+            <objects>
+                <viewController id="HHx-Ml-DJ4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VXg-aR-3KB">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="SJA-rW-wiq">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、候命義務指軍事化人員在任何時間及情況，即使犧牲其個人利益，仍須即時執行獲賦予之職務；鑑於其任務之特殊性，軍事化人員應謹記必須長期提供服務。
+
+二、在履行候命義務時，軍事化人員尤應：
+
+a）在上級命令或有必要之情況下，在工作之正常時間外留在工作崗位或地點；
+
+b）情況要求時，為避免非其責任範圍內犯罪之準備或完成，或為發現犯罪行為人，應立即採取所有措施，直至有權限之當局或人員負責該工作；
+
+c）即使在年假或休班期間，即時到達被召之地點及處理所發生之任何事實；
+
+d）在任何情況下立即提供有需要或獲請求之及時救援。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="E6U-Qq-KaL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="十（候命義務）" id="ulV-X3-kBJ">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="oYD-YS-ddq">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="GDr-aG-KnD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dyt-ub-dI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ADB-k8-g5N">
+            <objects>
+                <viewController id="K2H-9K-Mfh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uif-1s-w69">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="1Jo-Co-khj">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、保密義務指嚴格遵守有關保密事宜之安全規定及保守有關在擔任其職務時所獲知但不屬公開範圍之事實之機密。
+
+二、在履行保密義務時，軍事化人員尤應：
+
+a）不透露國家機密或司法保密以及有關預防犯罪及刑事偵查或紀律性質程序等活動之事宜；
+
+b）不透露有關被列為保留或保留以上等級之設備或活動，但透過有權限之上級實體之許可不在此限；
+
+c）不傳播保安部隊及部門設備之機密，並嚴格保守因其服務而可在有關紀錄、資料中心及其他文件資料中獲取之機密。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="qqC-i9-8SI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="五（保密義務）" id="qzm-Bf-mzm">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="Jqp-93-tlj">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="PZV-65-XRk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kk-2e-5AJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="-1992"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8S9-BJ-t6h">
+            <objects>
+                <viewController id="xJK-wf-tVe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tMq-ea-nTH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="MIG-G2-IPT">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、無私義務指不應從其所行使之職能上，直接或間接獲取金錢或其他任何利益，且從尊重公民平等之觀點上，其作出之行為不受任何利益或壓力影響。
+
+二、在履行無私義務時，軍事化人員尤應：
+
+a）在擔任職務時，不論情況如何，均嚴格保持政治中立；
+
+b）不利用當局權力、職等或職位，不引用上級以獲取利潤或利益，亦不向任何行動或程序施壓或藉此報復；
+
+c）在要求執行下達命令時應謹慎及公正，不強迫其屬下執行違法行為或作出不屬其工作範圍之行為；
+
+d）不使用超越其官職或職位之當局權力，亦不行使非賦予其之權限；
+
+e）不接受亦不促進照顧性提議或在任何情況下侵犯評價自由及公正精神之提議；
+
+f）在職時即使以間接之方式，亦不得從事須受澳門保安部隊監察之活動，亦不以受權人或僅以居間人之身分，參與須由澳門保安部隊各部隊及機構之部門處理之行動或事務，且即使以無償之方式，亦不擔任可影響其個人或職業聲譽或機構聲譽之職務。軍事化人員獲上級許可從事任何與澳門保安部隊無關之活動時，明文禁止其使用制服及其他有關物品；
+
+g）不請求照顧，不要求亦不接受可能直接或間接涉及擔任職務時之獨立性、客觀性及公正無私之財物或任何利益；
+
+h）不接受未經上級許可而由下屬表達之任何敬意；
+
+i）不向下級索取錢財，亦不接受可破壞紀律之下級給予之任何財物或利益。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="A1J-mW-E5v">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="二（無私義務）" id="6qt-IY-2tP">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="jTX-H0-F3s">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="u8A-9x-c7w"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PmO-fc-80k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="-2553"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VKK-1l-yLs">
+            <objects>
+                <viewController id="WQI-uw-eFT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qPp-DO-4FY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="tmY-HA-H45">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、熱心義務指認識法律與規章之規定及由上級發出之指示，以及獲取及完善知識及工作方法，以便有效及積極行使其職能。
+
+二、在履行熱心義務時，軍事化人員尤應：
+
+a）處理其權限範圍內發生之任何事實；如有需要，以客觀態度報告該事實；
+
+b）即時向上級提供有關工作、司法及紀律事宜之正確資訊；
+
+c）不向罪犯或違例者提供任何可使確定有關責任不得進行之協助及可阻礙確定有關責任之協助，亦不協助被拘留人破壞不得通訊性，但不影響刑事訴訟法例之規定；
+
+d）在適當時候給予向其呈交之請求書、要求書及聲明異議應有之程序，如有需要，提供有關資訊以便尋求合理之解決方法；
+
+e）注意執行上級下達之有關工作命令；
+
+f）除根據本通則規定之情況外，不使用武器；
+
+g）不得在必須之時間外扣留不屬於其之物品或財物；
+
+h）不消毀屬於部門或第三人之物品，不使屬於部門或第三人之物品失去效用，亦不以任何方式改動屬於部門或第三人之物品之法定目的；
+
+i）不干涉其他人員或權力當局之工作，但須向該等人員或當局提供所要求之協助，而在涉及明顯違法行為時，應將該事實知會上級；
+
+j）不允許他人占有其獲分配或由其負責之武器及設備，如有上級命令應立即將武器及設備交還；
+
+l）在服務地點或崗位保持警覺及注意，以促進人身、財產及公共或私人機構之安定及安全；
+
+m）給予下屬因其作出之行為而應得之獎賞，如其認為超越其權限，得向上級提議給予適當之獎賞；
+
+n）在其權限範圍內，處分作出違法行為之下屬；
+
+o）如無必要之許可，不使用亦不允許他人使用或利用屬行政當局但由其占有、管理或使用之設施或任何其他財產，以達至與該等設施與財產之原有用途不同之目的，但有必要之許可者除外；
+
+p）維護下屬之利益，並將其知悉且與下屬有關之問題知會上級。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="n0B-1r-bft">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="三（熱心義務）" id="4q2-P2-rdz">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="zBO-Cy-lbU">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="F4r-ff-xgu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zZM-iQ-TdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="-2553"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dZY-Cf-Yty">
+            <objects>
+                <viewController id="3eU-Pe-eNE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h6j-0H-z9z">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="cwF-Dd-QaR">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、忠誠義務指以遵從公共利益之觀點行使其職能，並使其行動受機構之宗旨約束。
+
+二、在履行忠誠義務時，軍事化人員尤應：
+
+a）向上級即時報告有可能危及公共秩序、人身及財產安全之事實，以及危及一般受刑法保護之事實；
+
+b）向上級即時準確報告缺勤及其他由下屬作出之違反本通則明文規定之行為；
+
+c）透過其從屬之上級呈交要求書或聲明異議；如該上級拒絕接受或不着手處理，可直接呈交，並對該程序提供適當解釋及澄清；
+
+d）不作出虛假聲明，即使意在隱瞞澳門保安部隊人員違反規範性規定之行為者亦然。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="6mz-AI-1q3">
+                                <rect key="frame" x="-6" y="0.0" width="326" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="四（忠誠義務）" id="khN-ad-jfG">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="mBv-t6-FAu">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="S4K-C1-bsZ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mof-qp-LVM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lt-ub-kWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-1992"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="76k-34-Q97">
+            <objects>
+                <viewController id="nDn-KR-sjg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iNz-Fd-Mao">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="4HK-ER-UtM">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">一、服從義務指嚴格遵守法律及規章，以及接受且即時遵守由其正當上級按法律規定之方式所下達之有關工作事宜方面之命令及指示。
+
+二、在履行服從義務時，軍事化人員尤應：
+
+a）遵守與其服務有關之法律、規章及指示；
+
+b）即時接受及服從由值勤員、守衛、查哨員、巡邏員或其他崗位人員傳達之命令；
+
+c）履行根據決定所科處之處分；
+
+d）言辭溫和，不得亦不允許下屬以不尊敬或批評之方式提及上級；
+
+e）接受根據規章所賦予之住宿、食物、制服、設備及武器，並收受依法獲賦予之薪俸、報酬及其他補助。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="jFS-d7-vcX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="一（服從義務）" id="4wr-UK-ft3">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="rbT-E4-jyo">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="h52-5Q-OBJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6XE-2V-CmN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TzL-0A-f4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-2553"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="4yV-3W-7qz"/>
+    </inferredMetricsTieBreakers>
+</document>
